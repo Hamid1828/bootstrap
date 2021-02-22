@@ -1,0 +1,31 @@
+.section-1 {
+  background: #754ffe;
+  display: flex;
+}
+.btn-success {
+  background: #19cb98;
+  border-color: #19cb98;
+}
+@media screen and(max-width:1000px) {
+  .section-1 {
+    display: block;
+  }
+}
+.icon-lg {
+  background: #ffeeda;
+}
+.icons {
+  color: #c28135;
+}
+a {
+  text-decoration: none;
+}
+.dropdown > ul:hover {
+  display: block;
+}
+.dropdown-menu {
+  display: none;
+}
+.path:hover .dropdown-menu {
+  display: block;
+}
